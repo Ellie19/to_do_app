@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    margin-top: 10%;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #464646;
+}
+
+.container {
+    width: 55%;
+    border: none;
+}
+
+h1 {
+    font-family: "Tangerine", serif;
+    font-weight: 300;
+    font-size: xx-large;
+    font-style: bold;
+}
+
+.listbtn {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.libtn {
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style-type: lower-roman;
+    border-radius: 2px;
+}
+
+ol {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .container,
+    input {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+    .listbtn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .libtn {
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 2px;
+    }
+    body {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+    }
+}
